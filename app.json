@@ -1,9 +1,4 @@
 {
-    "buildpacks": [
-        {
-            "url": "https://github.com/negativetwelve/heroku-buildpack-subdir"
-        }
-    ],
     "addons": [
         "heroku-postgresql:hobby-dev"
     ],
@@ -22,5 +17,6 @@
             "quantity": 1,
             "size": "hobby"
         }
-    }
+    },
+    "stack": "container"
 }
